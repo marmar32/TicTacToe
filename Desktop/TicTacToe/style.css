@@ -1,0 +1,43 @@
+h1 {
+	color:hotpink;
+	font-family: Chalkboard;
+	border-bottom: 1px solid black;
+}
+
+body {
+	margin: auto;
+	width: 550px;
+	background-color: palegreen;
+}
+
+table {
+	
+	color: green;
+	font-family: Chalkboard;
+}
+
+.Square {
+	height: 80px;
+	width: 80px;
+	font-size: 45px;
+	text-align: center;
+	border-color: violet;
+
+}
+
+#message {
+	font-size: 18pt;
+	font-family: helvetica;
+}
+
+#Restart {
+	font-family: Chalkboard;
+	font-size: 18pt;
+	text-decoration: none;
+	color: black;
+}
+
+#login {
+	font-family: Chalkboard;
+}
+

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Marwa's Tic Tac Toe</title>
+		<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body onload="startGame();">
+	<h1>Marwa's Tic Tac Toe</h1>
+	<div id="message">Messages Here </div>
+		
+	<table border="1">
+		<tr>
+			<td class="Square" id="s1" onclick="nextMove(this)"></td>
+			<td class="Square" id="s2" onclick="nextMove(this)"></td>
+			<td class="Square" id="s3" onclick="nextMove(this)"></td>
+		</tr>
+		<tr>
+			<td class="Square" id="s4" onclick="nextMove(this)"></td>
+			<td class="Square" id="s5" onclick="nextMove(this)"></td>
+			<td class="Square" id="s6" onclick="nextMove(this)"></td>
+		</tr>
+		<tr>
+			<td class="Square" id="s7" onclick="nextMove(this)"></td>
+			<td class="Square" id="s8" onclick="nextMove(this)"></td>
+			<td class="Square" id="s9" onclick="nextMove(this)"></td>
+		</tr>
+	</table>
+	<a href="javascript: startGame();" id="Restart">Restart Game</a>
+	<script src="main.js"></script>
+</body>
+</html>
